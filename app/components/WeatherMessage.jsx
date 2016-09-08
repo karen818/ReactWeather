@@ -6,7 +6,7 @@ var WeatherMessage = ({temp, location}) => { //was (props) now destructured to (
   // var location = this.props.location;
   // var temp = this.props.temp;
     return (
-      <h3>It's {temp} Fahrenheit in {location}</h3>
+      <h3 className='text-center'>It's {temp} Fahrenheit in {location}</h3>
     )
 };
 
